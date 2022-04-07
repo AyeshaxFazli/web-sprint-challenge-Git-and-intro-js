@@ -364,6 +364,8 @@ function artistByCountry(array, nationality){
 
 console.log(artistsByCountry(artists, 'Spanish'));
 
+
+
 /* ***** END OF TASKS ***** */
 
 
