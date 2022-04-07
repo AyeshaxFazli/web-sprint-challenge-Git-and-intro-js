@@ -249,12 +249,12 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
 function get20s(array){
-  for(let i = 0; i < artists.length i++)
+  for(let i = 0; i < artists.length; i++)
   if(number(artist[i].years) >= "1900"){
     return artists[i].name;
   }
 }
-}
+
 
 
 
@@ -298,7 +298,7 @@ function addArtist(artists){
   years: "1999",
   genre: "Web Design",
   nationality: "American",
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nunc ultrices, elementum enim sit amet, elementum mauris.";
+  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nunc ultrices, elementum enim sit amet, elementum mauris.",
 });
 return artists;
 }
